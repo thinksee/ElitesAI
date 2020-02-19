@@ -12,7 +12,7 @@
 
 其中损失函数和梯度下降方向一直，若要求解的目标值是最小值，则利用梯度下降的方式，若要求解的目标是最大值时，则利用梯度上升的方式。
 
-## [Softmax and Classifier model](./notebooks/02_softmax-classifier.ipynb)
+## [Softmax and Classifier model](./notebooks/02_softmax_classifier.ipynb)
 
 Softmax把NN模型的输出值变换成值为正且和为1的概率分布，从无法解释的输出转化为基于概率的可解释输出。
 
@@ -47,11 +47,11 @@ Softmax把NN模型的输出值变换成值为正且和为1的概率分布，从�
 
 包括BN层以及左右和ReNet的基本介绍
 
-## [文本预处理](./notebooks/10_predict_text.ipynb)
+## [文本预处理](./notebooks/10_predeal_text.ipynb)
 
-## [语言模型](./notebook/11_language_model.ipynb)
+## [语言模型](./notebooks/11_language_model.ipynb)
 
-## [循环神经网络](./notebooks/rnn.ipynb)
+## [循环神经网络](./notebooks/12_rnn.ipynb)
 
 ## [门结构](./notebooks/13_modern_rnn.ipynb)
 
@@ -63,9 +63,9 @@ Softmax把NN模型的输出值变换成值为正且和为1的概率分布，从�
 
 ## [凸优化](./notebooks/17_convexity_optimize.ipynb)
 
-## [梯度下降](./notebook/18_gradient_descent.ipynb)
+## [梯度下降](./notebooks/18_gradient_descent.ipynb)
 
-## [凸优化进阶](./notebook/19_optimizer_advanced.ipynb)
+## [凸优化进阶](./notebooks/19_optimizer_advanced.ipynb)
 
 ## [数据增强](./notebooks/20_data_augmentation.ipynb)
 
@@ -82,4 +82,3 @@ Softmax把NN模型的输出值变换成值为正且和为1的概率分布，从�
 ## [GAN](./notebooks/26_gan.ipynb)
 
 ## [DCGAN](./notebooks/27_dcgan.ipynb)
-
