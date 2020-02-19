@@ -1,8 +1,8 @@
-## [Pytorch基础](./Pytorch基础.ipynb)
+## [Pytorch基础](./notebooks/00_pytorch_basic.ipynb)
 
 主要包括创建Tensor的方式、修改Tensor的形状、索引Tensor、广播机制、逐元素操作、归并操作、矩阵操作等。
 
-## [线性回归模型](./线性回归模型.ipynb)
+## [线性回归模型](./notebooks/01_linear_model.ipynb)
 
 手动实现一个简单的线性回归模型包括组件：数据读写器、模型参数、模型定义、损失函数、优化函数等；
 
@@ -12,13 +12,13 @@
 
 其中损失函数和梯度下降方向一直，若要求解的目标值是最小值，则利用梯度下降的方式，若要求解的目标是最大值时，则利用梯度上升的方式。
 
-## [Softmax and Classifier model](./softmax-classifiers.ipynb)
+## [Softmax and Classifier model](./notebooks/02_softmax-classifier.ipynb)
 
 Softmax把NN模型的输出值变换成值为正且和为1的概率分布，从无法解释的输出转化为基于概率的可解释输出。
 
 [交叉熵损失函数](https://www.cnblogs.com/kyrieng/p/8694705.html)
 
-## [MLP](./multilayer-perceptron.ipynb)
+## [MLP](./notebooks/03_multilayer_perceptron.ipynb)
 
 **激活函数**
 
@@ -33,4 +33,53 @@ Softmax把NN模型的输出值变换成值为正且和为1的概率分布，从�
 - Maxout 是对 ReLU 和 Leaky ReLU 的一般化归纳，它的函数公式是（二维时）：。ReLU 和 Leaky ReLU 都是这个公式的特殊情况（比如 ReLU 就是当 时）。这样 Maxout 神经元就拥有 ReLU 单元的所有优点（线性和不饱和），而没有它的缺点（死亡的ReLU单元）。然而和 ReLU 对比，它每个神经元的参数数量增加了一倍，这就导致整体参数的数量激增。
 - 通常来说，很少会把各种激活函数串起来在一个网络中使用的。如果使用 ReLU，那么一定要小心设置 learning rate，而且要注意不要让你的网络出现很多 “dead” 神经元，如果这个问题不好解决，那么可以试试 Leaky ReLU、PReLU 或者 Maxout。最好不要用 sigmoid，可以试试 tanh，不过可以预期它的效果会比不上 ReLU 和 Maxout。
 
-## Over-fit and Up-fit
+## [过拟合和欠拟合](./notebooks/04_over_under_fitting.ipynb)
+
+[为什么正则化会降低过拟合](https://blog.csdn.net/u012535605/article/details/83579214)
+
+## [梯段消失和梯度爆炸](./notebooks/05_gradient_vanishing_explosion.ipynb)
+
+## [卷积神经网络基础](./notebooks/06_cnn_basic.ipynb)
+
+## [LeNet](./notebooks/07_lenet.ipynb)
+
+## [卷积神经网络进阶](./notebooks/09_bn_resnet.ipynb)
+
+包括BN层以及左右和ReNet的基本介绍
+
+## [文本预处理](./notebooks/10_predict_text.ipynb)
+
+## [语言模型](./notebook/11_language_model.ipynb)
+
+## [循环神经网络](./notebooks/rnn.ipynb)
+
+## [门结构](./notebooks/13_modern_rnn.ipynb)
+
+## [机器翻译及相关技术](./notebooks/14_translation.ipynb)
+
+##  [注意力机制和Seq2Seq](./notebooks/15_attention_seq2seq.ipynb)
+
+## [Transformer](./notebooks/16_transformer.ipynb)
+
+## [凸优化](./notebooks/17_convexity_optimize.ipynb)
+
+## [梯度下降](./notebook/18_gradient_descent.ipynb)
+
+## [凸优化进阶](./notebook/19_optimizer_advanced.ipynb)
+
+## [数据增强](./notebooks/20_data_augmentation.ipynb)
+
+## [微调](./notebooks/21_fine_tuning.ipynb)
+
+## [目标检测](./notebooks/22_target_detection.ipynb)
+
+## [word2vec](./notebooks/23_word2vec.ipynb)
+
+## [词嵌入](./notebooks/24_word_embedding.ipynb)
+
+## [问本情感分类](./notebooks/25_text_classifier.ipynb)
+
+## [GAN](./notebooks/26_gan.ipynb)
+
+## [DCGAN](./notebooks/27_dcgan.ipynb)
+
